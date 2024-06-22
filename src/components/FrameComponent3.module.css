@@ -1,0 +1,130 @@
+.howWeEnsure,
+.withOurComprehensive {
+  margin: 0;
+  position: relative;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.howWeEnsure {
+  width: 570px;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 700;
+}
+.withOurComprehensive {
+  width: 646px;
+  font-size: var(--font-size-3xl);
+  line-height: 32px;
+  font-weight: 400;
+  color: var(--color-gray-500);
+}
+.emptyParentIcon {
+  height: 57px;
+  width: 57px;
+  position: relative;
+  border-radius: 43.94px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.step2 {
+  font-weight: 600;
+}
+.step2VideoContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+}
+.assessmentSubheading,
+.emptyParentParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.assessmentSubheading {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-lgi) 0 0;
+}
+.emptyParentParent {
+  width: 246px;
+  flex-direction: row;
+  gap: var(--gap-4xl);
+}
+.candidatesAreAssessed {
+  width: 531px;
+  position: relative;
+  line-height: 26px;
+  color: var(--color-gray-900);
+  display: inline-block;
+  max-width: 100%;
+}
+.interviewStep {
+  align-self: stretch;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.07);
+  border-radius: var(--br-6xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: var(--padding-mid) var(--padding-xl);
+  gap: var(--gap-base);
+}
+.howWeEnsureYoureInGoodHParent,
+.interviewStep,
+.processSteps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.processSteps {
+  width: 635px;
+  gap: var(--gap-8xs-3);
+  font-size: var(--font-size-base);
+}
+.howWeEnsureYoureInGoodHParent {
+  flex: 1;
+  background-color: var(--color-white);
+  overflow: hidden;
+  padding: var(--padding-130xl) var(--padding-xl) var(--padding-73xl)
+    var(--padding-51xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-35xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-switzer);
+}
+@media screen and (max-width: 1150px) {
+  .howWeEnsureYoureInGoodHParent {
+    padding-top: var(--padding-78xl);
+    padding-bottom: var(--padding-41xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .howWeEnsure {
+    font-size: var(--font-size-24xl);
+    line-height: 51px;
+  }
+  .howWeEnsureYoureInGoodHParent {
+    gap: var(--gap-mini);
+    padding-left: var(--padding-16xl);
+    padding-top: var(--padding-44xl);
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .howWeEnsure {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .withOurComprehensive {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+}

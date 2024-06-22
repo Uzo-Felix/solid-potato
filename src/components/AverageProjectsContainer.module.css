@@ -1,0 +1,138 @@
+.howLongAre {
+  margin: 0;
+  width: 350px;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 8;
+}
+.howLongAreTheAverageProjeWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-188xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.howLongAre1,
+.separatorIcon {
+  position: relative;
+  max-width: 100%;
+  z-index: 8;
+}
+.separatorIcon {
+  align-self: stretch;
+  overflow: hidden;
+  max-height: 100%;
+}
+.howLongAre1 {
+  margin: 0;
+  width: 350px;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.fAQList {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-188xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fAQListChild {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 8;
+}
+.fAQList1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.howMuchCan {
+  margin: 0;
+  width: 220px;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 8;
+}
+.howMuchCanIEarnWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-58xl);
+}
+.averageProjectsContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-24xl-5);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-900);
+  font-family: var(--font-switzer);
+}
+@media screen and (max-width: 800px) {
+  .fAQList,
+  .howLongAreTheAverageProjeWrapper {
+    padding-left: var(--padding-84xl);
+    box-sizing: border-box;
+  }
+  .averageProjectsContainer {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .howLongAre {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .howLongAreTheAverageProjeWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .howLongAre1 {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .fAQList {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .howMuchCan {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .howMuchCanIEarnWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,567 @@
+.anOpenBook {
+  margin: 0;
+  width: 239px;
+  position: relative;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.anOpenBookParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+}
+.component1064Child {
+  height: 74px;
+  width: 74px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.learnMore {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 18px;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 116px;
+  white-space: nowrap;
+}
+.learnMoreButton {
+  flex-direction: column;
+  padding: var(--padding-8xl) 0 0;
+}
+.component1064,
+.frameParent,
+.learnMoreButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.component1064 {
+  flex-direction: row;
+  gap: var(--gap-xs);
+  font-size: var(--font-size-3xl);
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-25xl);
+  min-width: 406px;
+  max-width: 100%;
+}
+.allMessages {
+  position: relative;
+  font-weight: 600;
+  color: var(--color-lightgray-200);
+  display: inline-block;
+  min-width: 64px;
+  flex-shrink: 0;
+}
+.frameChild {
+  height: 70.4px;
+  width: 70.4px;
+  position: relative;
+}
+.estherHoward,
+.pm {
+  position: relative;
+  font-weight: 600;
+}
+.pm {
+  font-size: var(--font-size-xs-9);
+  color: var(--color-gainsboro-400);
+  display: inline-block;
+  min-width: 47px;
+  white-space: nowrap;
+}
+.estherHowardParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  gap: var(--gap-xl);
+}
+.hiLuisI {
+  text-decoration: none;
+  width: 228px;
+  position: relative;
+  font-size: var(--font-size-sm-9);
+  color: var(--color-gainsboro-400);
+  display: inline-block;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12xs);
+  min-width: 153px;
+}
+.chatbarInner,
+.frameContainer,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  border-radius: 7.93px;
+  background-color: var(--color-gray-400);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-sm-9) var(--padding-mini) var(--padding-sm-8);
+  gap: var(--gap-mini-9);
+}
+.chatbarInner {
+  margin-left: -46.5px;
+  width: 353.5px;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  max-width: 136%;
+  font-size: var(--font-size-2xl-8);
+}
+.frameItem {
+  height: 51.7px;
+  width: 51.7px;
+  position: relative;
+}
+.estherHoward1,
+.pm1 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 101px;
+}
+.pm1 {
+  font-size: var(--font-size-4xs-7);
+  color: var(--color-darkgray-100);
+  min-width: 35px;
+  white-space: nowrap;
+}
+.uk {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.hiLuisI1 {
+  width: 167.5px;
+  position: relative;
+  font-size: var(--font-size-2xs-2);
+  color: var(--color-darkgray-100);
+  display: inline-block;
+}
+.frameDiv,
+.sub {
+  display: flex;
+  justify-content: flex-start;
+}
+.sub {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12xs-7);
+}
+.frameDiv {
+  width: 236.5px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-2xs-9);
+}
+.messageBubbleChild {
+  align-self: stretch;
+  height: 0.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.subChild {
+  height: 51.7px;
+  width: 51.7px;
+  position: relative;
+}
+.estherHoward2,
+.pm2 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 101px;
+}
+.pm2 {
+  font-size: var(--font-size-4xs-7);
+  color: var(--color-darkgray-100);
+  min-width: 35px;
+  white-space: nowrap;
+}
+.estherHowardGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.hiLuisI2 {
+  width: 167.5px;
+  position: relative;
+  font-size: var(--font-size-2xs-2);
+  color: var(--color-darkgray-100);
+  display: inline-block;
+}
+.france,
+.sub1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.france {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12xs-7);
+}
+.sub1 {
+  width: 236.5px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-2xs-9);
+}
+.subIcon {
+  align-self: stretch;
+  height: 0.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.othersChild {
+  height: 51.7px;
+  width: 51.7px;
+  position: relative;
+}
+.estherHoward3,
+.pm3 {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 101px;
+}
+.pm3 {
+  font-size: var(--font-size-4xs-7);
+  color: var(--color-darkgray-100);
+  min-width: 35px;
+  white-space: nowrap;
+}
+.estherHowardContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.hiLuisI3 {
+  width: 167.5px;
+  position: relative;
+  font-size: var(--font-size-2xs-2);
+  color: var(--color-darkgray-100);
+  display: inline-block;
+}
+.frameParent1,
+.others {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: var(--gap-12xs-7);
+}
+.others {
+  width: 236.5px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-2xs-9);
+}
+.messageBubbleItem {
+  align-self: stretch;
+  height: 0.7px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.messageBubble {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 17.2px;
+}
+.messageBubbleWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3xl) 0 var(--padding-8xl);
+}
+.frameInner {
+  height: 77px;
+  width: 309px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  display: none;
+  z-index: 0;
+}
+.hiLuisI4 {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  z-index: 1;
+}
+.vectorIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.frameIcon,
+.vectorGroup,
+.vectorIcon {
+  margin: 0 !important;
+  position: absolute;
+}
+.frameIcon {
+  height: 71.9px;
+  width: 71.9px;
+  bottom: 1.9px;
+  left: 1px;
+  border-radius: 45.83px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.vectorGroup {
+  height: 108.8px;
+  width: 112.2px;
+  top: -32px;
+  left: -100.9px;
+  flex-direction: row;
+  align-items: flex-start;
+  z-index: 2;
+}
+.chatbar,
+.userMessage,
+.vectorGroup,
+.vectorParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.vectorParent {
+  align-self: stretch;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-gray-400);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-sm)
+    var(--padding-6xl);
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightgray-100);
+}
+.chatbar,
+.userMessage {
+  flex-direction: column;
+}
+.userMessage {
+  margin-left: -26.6px;
+  width: 309px;
+  align-items: flex-end;
+  gap: 28.2px;
+  flex-shrink: 0;
+  font-size: var(--font-size-base);
+}
+.chatbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8.74px;
+  background-color: var(--color-gray-400);
+  width: 295px;
+  height: 391px;
+  align-items: flex-start;
+  padding: var(--padding-base) var(--padding-mid) 250.7px;
+  box-sizing: border-box;
+  gap: 10.3px;
+}
+.buttonIcon,
+.typingIconChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.typingIconChild {
+  top: 10px;
+  left: 65px;
+  border-radius: 60.41px;
+  width: 81.1px;
+  height: 81.1px;
+  overflow: hidden;
+  z-index: 1;
+}
+.typingIcon {
+  height: 126.4px;
+  flex: 1;
+  position: relative;
+}
+.typingIconWrapper {
+  position: absolute;
+  top: 124px;
+  left: 285px;
+  width: 147.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.chatArea {
+  align-self: stretch;
+  height: 391px;
+  position: relative;
+}
+.chatAreaWrapper {
+  width: 432.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xl);
+  box-sizing: border-box;
+  min-width: 432.7px;
+  max-width: 100%;
+  font-size: var(--font-size-xs-7);
+  color: var(--color-gainsboro-200);
+  font-family: var(--font-cabin);
+}
+.counryChild {
+  height: 109.7px;
+  width: 109.7px;
+  position: absolute;
+  margin: 0 !important;
+  top: 36px;
+  right: 493.5px;
+  border-radius: 75.54px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.counry {
+  width: 1300px;
+  box-shadow: 0 15px 30px rgba(191, 181, 255, 0.15);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-77xl) var(--padding-6xl) var(--padding-121xl)
+    var(--padding-39xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-140xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-35xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-switzer);
+}
+@media screen and (max-width: 1050px) {
+  .chatAreaWrapper {
+    flex: 1;
+  }
+  .counry {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 975px) {
+  .anOpenBook {
+    font-size: var(--font-size-24xl);
+    line-height: 51px;
+  }
+}
+@media screen and (max-width: 725px) {
+  .anOpenBookParent {
+    gap: var(--gap-lg);
+  }
+  .frameParent {
+    gap: var(--gap-3xl);
+  }
+  .chatAreaWrapper,
+  .frameParent {
+    min-width: 100%;
+  }
+  .counry {
+    gap: var(--gap-60xl);
+    padding-left: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .anOpenBook {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .learnMore {
+    font-size: var(--font-size-lg);
+    line-height: 14px;
+  }
+  .estherHoward {
+    font-size: var(--font-size-mid);
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .chatArea,
+  .chatbar {
+    height: auto;
+  }
+  .chatArea {
+    min-height: 391;
+  }
+  .counry {
+    gap: var(--gap-21xl);
+  }
+}

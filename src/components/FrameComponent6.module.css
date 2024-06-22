@@ -1,0 +1,43 @@
+.pexelsChristinaMorillo11814Icon {
+  position: absolute;
+  top: 28px;
+  left: 29px;
+  width: 39px;
+  height: 40px;
+  object-fit: contain;
+}
+.someDataCard {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  border-radius: var(--br-55xl);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.shopifyDeveloper {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+}
+.shopifyDeveloperWrapper,
+.someDataCardParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shopifyDeveloperWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) 0 var(--padding-6xs);
+}
+.someDataCardParent {
+  width: 96px;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  font-family: var(--font-switzer);
+}

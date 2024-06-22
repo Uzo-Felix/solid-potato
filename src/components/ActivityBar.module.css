@@ -1,0 +1,101 @@
+.vectorIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.component2,
+.component2Child,
+.vectorIcon {
+  position: absolute;
+  display: none;
+}
+.component2Child {
+  height: 29.17%;
+  width: 29.17%;
+  top: 35.54%;
+  right: 35.29%;
+  bottom: 35.29%;
+  left: 35.54%;
+  border-radius: 2.55px;
+  background-color: var(--color-darkslateblue-100);
+}
+.component2 {
+  top: 22.1px;
+  left: 56.1px;
+  width: 40.8px;
+  height: 40.8px;
+}
+.logFilterIcon {
+  position: absolute;
+  top: 32.3px;
+  left: 18.7px;
+  width: 20.4px;
+  height: 20.4px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.filterIcon,
+.todaysActivity {
+  position: absolute;
+  top: 28px;
+  left: 37px;
+  line-height: 14px;
+  z-index: 1;
+}
+.todaysActivity {
+  top: 47px;
+  font-size: var(--font-size-3xs);
+  line-height: 10px;
+  font-weight: 500;
+  font-family: var(--font-cabin);
+  color: var(--color-slategray);
+}
+.frameChild,
+.logEntry,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-2xl);
+}
+.frameChild {
+  left: 2.3px;
+  background-color: var(--color-whitesmoke-500);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.logEntry,
+.rectangleParent {
+  left: 0;
+  background-color: var(--color-goldenrod);
+  width: 77.4px;
+  height: 6px;
+  z-index: 1;
+}
+.rectangleParent {
+  top: 32px;
+  left: 77px;
+  background-color: var(--color-whitesmoke-500);
+  width: 180px;
+}
+.activityBar {
+  height: 85px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.07);
+  border-radius: 18.18px 18.18px 18.11px 18.11px;
+  background-color: var(--color-white);
+  border: 0.8px solid var(--color-whitesmoke-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightgray-200);
+  font-family: var(--font-switzer);
+}

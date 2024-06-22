@@ -1,0 +1,100 @@
+.frameChild {
+  align-self: stretch;
+  width: 230px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.general {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 81px;
+  z-index: 9;
+}
+.journeyButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) 0 0;
+}
+.frameItem {
+  height: 112px;
+  width: 0;
+  position: relative;
+  object-fit: contain;
+  z-index: 9;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-100);
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-51xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 8;
+}
+.iWantTo,
+.joiningProcess {
+  margin: 0;
+  position: absolute;
+  top: 44px;
+  font-size: inherit;
+  line-height: 24px;
+  font-family: inherit;
+  z-index: 8;
+}
+.iWantTo {
+  left: 640px;
+  font-weight: 400;
+  color: var(--color-gray-900);
+}
+.joiningProcess {
+  left: 296px;
+  font-weight: 600;
+}
+.frameInner {
+  position: absolute;
+  top: 0;
+  left: 529px;
+  width: 0;
+  height: 112px;
+  object-fit: contain;
+  z-index: 8;
+}
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1px;
+  z-index: 10;
+}
+.frameParent {
+  align-self: stretch;
+  height: 112px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-switzer);
+}
+@media screen and (max-width: 450px) {
+  .general,
+  .iWantTo,
+  .joiningProcess {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+}

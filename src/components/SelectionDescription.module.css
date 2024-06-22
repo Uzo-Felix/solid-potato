@@ -1,0 +1,64 @@
+.uIUXSkills,
+.uIUXSkills1,
+.uIUXSkills2 {
+  width: 18px;
+  height: 7px;
+  position: relative;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-darkslateblue-200);
+}
+.selectionContent,
+.selectionIndicators {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.selectionIndicators {
+  gap: var(--gap-6xl);
+}
+.selectionContent {
+  padding: var(--padding-smi) 0 0;
+}
+.riskFreeResourceSwapping,
+.thousandsOfVetted,
+.wePickThe {
+  margin: 0;
+}
+.wePickTheContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 384px;
+  max-width: 100%;
+}
+.selectionDescription {
+  width: 625px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-gray-900);
+  font-family: var(--font-switzer);
+}
+@media screen and (max-width: 800px) {
+  .wePickTheContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wePickTheContainer {
+    font-size: var(--font-size-lg);
+    line-height: 26px;
+  }
+}

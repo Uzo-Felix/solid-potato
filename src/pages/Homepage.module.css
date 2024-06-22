@@ -1,0 +1,909 @@
+.frameParent,
+.startYourJourney {
+  margin: 0 !important;
+  position: absolute;
+}
+.startYourJourney {
+  width: 618px;
+  bottom: 3712px;
+  left: 341px;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 4;
+}
+.frameParent {
+  width: 1300px;
+  top: 4700.5px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.testimonialNavigationChild {
+  height: 64.5px;
+  width: 1440px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: -771px;
+  object-fit: contain;
+  z-index: 2;
+}
+.testimonialNavigation,
+.vettingDescription {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.testimonialNavigation {
+  width: 1460px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  position: relative;
+}
+.vettingDescription {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.candidateCardsChild,
+.cardBackgroundsChild {
+  align-self: stretch;
+  position: relative;
+  display: none;
+}
+.candidateCardsChild {
+  height: 247.7px;
+  border-radius: 21.15px;
+  background-color: var(--color-gray-600);
+}
+.cardBackgroundsChild {
+  width: 220.7px;
+  border-radius: 21.15px 21.15px 0 21.15px;
+  background-color: var(--color-mistyrose);
+}
+.maskGroupIcon {
+  height: 141.4px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 4;
+}
+.cardBackgrounds {
+  align-self: stretch;
+  border-radius: 21.15px 21.15px 0 21.15px;
+  background-color: var(--color-mistyrose);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.redwoodCityCalifornia,
+.rubyDeveloper {
+  position: relative;
+  letter-spacing: -0.02em;
+  z-index: 3;
+}
+.rubyDeveloper {
+  line-height: 18px;
+  display: inline-block;
+  min-width: 124px;
+}
+.redwoodCityCalifornia {
+  align-self: stretch;
+  font-size: var(--font-size-xs);
+  line-height: 14px;
+}
+.candidateCards,
+.candidateDetailsGrid,
+.candidateInformation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.candidateDetailsGrid {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.candidateCards,
+.candidateInformation {
+  width: 191px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.candidateCards {
+  position: absolute;
+  top: -4px;
+  left: 797px;
+  border-radius: 21.15px;
+  background-color: var(--color-gray-600);
+  width: 220.7px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-lgi-7);
+  gap: 12.6px;
+  z-index: 2;
+}
+.candidateCardsItem,
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  display: none;
+}
+.candidateCardsItem {
+  height: 247.7px;
+  box-shadow: 0 21.2px 21.15px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(31.73px);
+  border-radius: 21.15px;
+  background-color: var(--color-gray-600);
+}
+.frameItem {
+  width: 220.7px;
+  border-radius: 21.15px 21.15px 0 21.15px;
+  background-color: var(--color-thistle);
+}
+.maskGroupIcon1 {
+  height: 141.4px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 4;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: 21.15px 21.15px 0 21.15px;
+  background-color: var(--color-thistle);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.redwoodCityCalifornia1,
+.rubyDeveloper1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  z-index: 3;
+}
+.rubyDeveloper1 {
+  width: 124px;
+  height: 18px;
+  line-height: 18px;
+  display: inline-block;
+}
+.redwoodCityCalifornia1 {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--font-size-xs);
+  line-height: 14px;
+}
+.candidateCardsInner,
+.rubyDeveloperParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rubyDeveloperParent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.candidateCardsInner {
+  width: 191px;
+  height: 74px;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}
+.candidateCardList,
+.candidateCardList1,
+.candidateCards1 {
+  position: absolute;
+  left: 797px;
+  backdrop-filter: blur(31.73px);
+  background-color: var(--color-gray-600);
+  width: 220.7px;
+}
+.candidateCards1 {
+  top: 268.2px;
+  box-shadow: 0 21.2px 21.15px rgba(0, 0, 0, 0.05);
+  border-radius: 21.15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-lgi-9);
+  box-sizing: border-box;
+  gap: 12.4px;
+  z-index: 2;
+}
+.candidateCardList,
+.candidateCardList1 {
+  top: 540.5px;
+  border-radius: 21.15px 21.15px 0 0;
+  height: 36.8px;
+}
+.candidateCardList1 {
+  top: -76px;
+  left: 1263px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.frameInner,
+.rectangleDiv {
+  align-self: stretch;
+  position: relative;
+  display: none;
+}
+.rectangleDiv {
+  height: 247.7px;
+  box-shadow: 0 21.2px 21.15px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(31.73px);
+  border-radius: 21.15px;
+  background-color: var(--color-gray-600);
+}
+.frameInner {
+  width: 220.7px;
+  border-radius: 21.15px 21.15px 0 21.15px;
+  background-color: var(--color-lightgoldenrodyellow-200);
+}
+.maskGroupIcon2 {
+  height: 141.4px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 4;
+}
+.rectangleGroup {
+  align-self: stretch;
+  border-radius: 21.15px 21.15px 0 21.15px;
+  background-color: var(--color-lightgoldenrodyellow-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.abuDhabiUae,
+.systemOpsEngineer {
+  position: relative;
+  letter-spacing: -0.02em;
+  z-index: 3;
+}
+.systemOpsEngineer {
+  align-self: stretch;
+  line-height: 18px;
+}
+.abuDhabiUae {
+  width: 143px;
+  font-size: var(--font-size-xs);
+  line-height: 14px;
+  display: inline-block;
+}
+.systemOpsEngineerParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.candidateCards2,
+.frameDiv,
+.systemOpsEngineerParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl) 0 var(--padding-4xl);
+}
+.candidateCards2 {
+  position: absolute;
+  top: -51.4px;
+  left: 1042.3px;
+  box-shadow: 0 21.2px 21.15px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(31.73px);
+  border-radius: 21.15px;
+  background-color: var(--color-gray-600);
+  width: 220.7px;
+  flex-direction: column;
+  padding: 0 0 19.3px;
+  box-sizing: border-box;
+  gap: 13px;
+  z-index: 2;
+}
+.candidateCardsChild1,
+.frameChild1 {
+  align-self: stretch;
+  position: relative;
+  display: none;
+}
+.candidateCardsChild1 {
+  height: 247.7px;
+  box-shadow: 0 21.2px 21.15px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(31.73px);
+  border-radius: 21.15px;
+  background-color: var(--color-gray-600);
+}
+.frameChild1 {
+  width: 220.7px;
+  border-radius: 21.15px 21.15px 0 21.15px;
+  background-color: var(--color-khaki);
+}
+.maskGroupIcon3 {
+  height: 141.4px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 4;
+}
+.rectangleContainer {
+  align-self: stretch;
+  border-radius: 21.15px 21.15px 0 21.15px;
+  background-color: var(--color-khaki);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.redwoodCityCalifornia2,
+.rubyDeveloper2 {
+  position: relative;
+  letter-spacing: -0.02em;
+  z-index: 3;
+}
+.rubyDeveloper2 {
+  line-height: 18px;
+  display: inline-block;
+  min-width: 124px;
+}
+.redwoodCityCalifornia2 {
+  align-self: stretch;
+  flex: 1;
+  font-size: var(--font-size-xs);
+  line-height: 14px;
+}
+.candidateCardsInner1,
+.rubyDeveloperGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rubyDeveloperGroup {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xl);
+}
+.candidateCardsInner1 {
+  width: 189.7px;
+  height: 74px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xl);
+  box-sizing: border-box;
+}
+.candidateCardList2,
+.candidateCardList3,
+.candidateCards3 {
+  position: absolute;
+  left: 1042.3px;
+  backdrop-filter: blur(31.73px);
+  background-color: var(--color-gray-600);
+  width: 220.7px;
+}
+.candidateCards3 {
+  top: 220.8px;
+  box-shadow: 0 21.2px 21.15px rgba(0, 0, 0, 0.05);
+  border-radius: 21.15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 19.5px;
+  box-sizing: border-box;
+  gap: 12.8px;
+  z-index: 2;
+}
+.candidateCardList2,
+.candidateCardList3 {
+  top: 493px;
+  border-radius: 21.15px 21.15px 0 0;
+  height: 84.2px;
+}
+.candidateCardList3 {
+  top: -28.6px;
+  left: 1017.7px;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.frameChild2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-thistle);
+  width: 100%;
+  height: 100%;
+}
+.image247Icon {
+  position: absolute;
+  height: 32.11%;
+  width: 45.87%;
+  top: 33.94%;
+  right: 27.06%;
+  bottom: 33.94%;
+  left: 27.06%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.frameChild3,
+.groupDiv {
+  position: absolute;
+  top: 248px;
+  left: 0;
+  width: 218px;
+  height: 218px;
+}
+.frameChild3 {
+  top: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mistyrose);
+  width: 100%;
+  height: 100%;
+}
+.pexelsPuwadonSangngern13419Icon {
+  position: absolute;
+  top: 51px;
+  left: 62px;
+  width: 94px;
+  height: 117px;
+  object-fit: contain;
+}
+.frameChild4,
+.frameContainer,
+.rectangleParent1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 218px;
+  height: 218px;
+}
+.frameChild4,
+.frameContainer {
+  top: 124px;
+  height: 466px;
+}
+.frameChild4 {
+  top: 0;
+  border-radius: var(--br-xl);
+  background-color: #e0f9de;
+  width: 100%;
+  height: 100%;
+}
+.pexelsChristinaMorillo11814Icon {
+  position: absolute;
+  top: 57px;
+  left: 59px;
+  width: 101px;
+  height: 104px;
+  object-fit: contain;
+}
+.frameChild5,
+.frameChild6,
+.rectangleParent2 {
+  position: absolute;
+  left: 248px;
+  width: 218px;
+  height: 218px;
+}
+.rectangleParent2 {
+  top: 248px;
+}
+.frameChild5,
+.frameChild6 {
+  border-radius: var(--br-xl);
+}
+.frameChild5 {
+  top: 496px;
+  background-color: var(--color-khaki);
+}
+.frameChild6 {
+  top: 0;
+  background-color: #8ba4fd;
+}
+.frameGroup {
+  position: absolute;
+  top: -163px;
+  left: 797px;
+  width: 466px;
+  height: 714px;
+  display: none;
+}
+.vectorParent {
+  position: absolute;
+  top: 104px;
+  left: 0;
+  width: 1300px;
+  height: 387.5px;
+  overflow: hidden;
+}
+.whyZwiltContainer,
+.whyZwiltContainerChild {
+  position: absolute;
+  top: -48px;
+  left: 0;
+  width: 1440px;
+  height: 1072.5px;
+}
+.whyZwiltContainer {
+  top: 0;
+  left: 651px;
+  height: 1025px;
+  overflow: hidden;
+  max-width: 100%;
+  z-index: 7;
+}
+.questionList {
+  width: 2091px;
+  height: 1225.5px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-300);
+  font-family: var(--font-switzer);
+}
+.homepageChild {
+  width: 1440px;
+  height: 64.5px;
+  position: absolute;
+  margin: 0 !important;
+  right: 28.9px;
+  bottom: 2486px;
+  z-index: 8;
+}
+.fitDescriptionChild {
+  align-self: stretch;
+  height: 1343.5px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 7;
+}
+.frequentlyAskedQuestions {
+  margin: 0;
+  width: 700px;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 8;
+}
+.frequentlyAskedQuestionsWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameParent1,
+.frequentlyAskedQuestionsWrapper,
+.vectorIcon {
+  align-self: stretch;
+  max-width: 100%;
+}
+.vectorIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 8;
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 1208.5px;
+  box-sizing: border-box;
+  gap: 88px;
+  margin-top: -1209.5px;
+}
+.general {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 81px;
+  z-index: 8;
+}
+.generalWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) 0 0;
+}
+.frameChild7 {
+  height: 112px;
+  width: 0;
+  position: relative;
+  object-fit: contain;
+  z-index: 9;
+}
+.frameParent4 {
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-60xl);
+}
+.iWantTo {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  z-index: 8;
+}
+.frameParent3,
+.generalAnswer,
+.partTimeFAQ {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.partTimeFAQ {
+  width: 390px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) 0 0;
+  box-sizing: border-box;
+  color: var(--color-gray-900);
+}
+.frameParent3,
+.generalAnswer {
+  flex-direction: row;
+}
+.frameParent3 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.generalAnswer {
+  width: 1098px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-50xl);
+  box-sizing: border-box;
+}
+.frameChild8 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 10;
+}
+.generalAnswerParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameChild9,
+.frameWrapper {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 43px var(--padding-12xs);
+  box-sizing: border-box;
+}
+.frameChild9 {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 10;
+}
+.frameParent2,
+.questionsList {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -1209.5px;
+}
+.frameParent2 {
+  flex-direction: column;
+  padding: 0 0 1252.5px;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.questionsList {
+  flex-direction: row;
+  padding: 0 0 1253.5px var(--padding-12xs);
+}
+.projectQuestionsChild {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 8;
+}
+.component1083,
+.fitDescription,
+.projectQuestions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.projectQuestions {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  margin-top: -1209.5px;
+}
+.component1083,
+.fitDescription {
+  width: 1440px;
+  flex-direction: column;
+}
+.fitDescription {
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 1344px;
+  text-align: center;
+  font-size: var(--font-size-35xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-switzer);
+}
+.component1083 {
+  z-index: 8;
+}
+.homepageItem {
+  width: 547px;
+  height: 376px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 9;
+}
+.homepage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xl) 0 0;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-35xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-switzer);
+}
+@media screen and (max-width: 1350px) {
+  .frameParent1 {
+    padding-bottom: 786px;
+    box-sizing: border-box;
+  }
+  .frameParent2,
+  .questionsList {
+    padding-bottom: 814px;
+    box-sizing: border-box;
+  }
+  .questionsList {
+    padding-bottom: 815px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .generalAnswer {
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .frameParent2 {
+    padding-bottom: 529px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .startYourJourney {
+    font-size: var(--font-size-24xl);
+    line-height: 51px;
+  }
+  .whyZwiltContainer {
+    height: auto;
+    min-height: 1025;
+  }
+  .questionList {
+    height: auto;
+    min-height: 1225.5;
+  }
+  .frequentlyAskedQuestions {
+    font-size: var(--font-size-24xl);
+    line-height: 43px;
+  }
+  .frameParent1 {
+    gap: var(--gap-25xl);
+    padding-bottom: 511px;
+    box-sizing: border-box;
+  }
+  .frameParent3 {
+    flex-wrap: wrap;
+  }
+  .questionsList {
+    padding-bottom: 530px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frequentlyAskedQuestions,
+  .startYourJourney {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .frequentlyAskedQuestions {
+    line-height: 32px;
+  }
+  .frameParent1 {
+    gap: var(--gap-3xl);
+  }
+  .general,
+  .iWantTo {
+    font-size: var(--font-size-lg);
+    line-height: 19px;
+  }
+  .frameParent2 {
+    padding-bottom: 344px;
+    box-sizing: border-box;
+  }
+}

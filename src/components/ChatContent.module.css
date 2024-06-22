@@ -1,0 +1,79 @@
+.frameChild {
+  height: 51.7px;
+  width: 51.7px;
+  position: relative;
+}
+.estherHoward,
+.pm {
+  height: 19px;
+  width: 101px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.pm {
+  height: 11px;
+  width: 35px;
+  font-size: var(--font-size-4xs-7);
+  color: var(--color-darkgray-100);
+  white-space: nowrap;
+}
+.senderName {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+}
+.hiLuisI {
+  width: 167.5px;
+  height: 24px;
+  position: relative;
+  font-size: var(--font-size-2xs-2);
+  color: var(--color-darkgray-100);
+  display: inline-block;
+}
+.chatContent,
+.frameParent,
+.senderInfo {
+  display: flex;
+  justify-content: flex-start;
+}
+.senderInfo {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12xs-7);
+  min-width: 113px;
+}
+.chatContent,
+.frameParent {
+  flex-direction: row;
+}
+.frameParent {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-2xs-9);
+}
+.chatContent {
+  width: 236.5px;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-3xs-2);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gainsboro-200);
+  font-family: var(--font-cabin);
+}
+@media screen and (max-width: 800px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .senderName {
+    flex-wrap: wrap;
+  }
+}

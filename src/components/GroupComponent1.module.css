@@ -1,0 +1,96 @@
+.frameChild,
+.maskGroupIcon {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.frameChild {
+  top: 0;
+  object-fit: contain;
+}
+.maskGroupIcon {
+  top: 0.5px;
+  z-index: 1;
+}
+.secondEmptyButton {
+  height: 49.8px;
+  width: 49.8px;
+  position: relative;
+  border-radius: 20.19px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.browseMore {
+  position: relative;
+  line-height: 13px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 91px;
+}
+.browseMoreWrapper,
+.component1060 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg-2) 0 0;
+}
+.component1060 {
+  position: absolute;
+  top: 271.5px;
+  left: 95px;
+  flex-direction: row;
+  padding: 0 var(--padding-mini) 0 0;
+  gap: var(--gap-5xs);
+  z-index: 2;
+}
+.assessTheCandidate,
+.evaluateToYour {
+  position: absolute;
+  left: 95px;
+  display: inline-block;
+  z-index: 2;
+}
+.assessTheCandidate {
+  top: 199.5px;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-gray-900);
+  width: 407px;
+}
+.evaluateToYour {
+  margin: 0;
+  top: 91.5px;
+  font-size: var(--font-size-15xl);
+  line-height: 44px;
+  font-weight: 600;
+  font-family: inherit;
+  width: 365px;
+}
+.vectorParent {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -367px;
+  right: 0;
+  left: 0;
+  z-index: 5;
+  text-align: left;
+  font-size: var(--font-size-mini-8);
+  color: var(--color-gray-300);
+  font-family: var(--font-switzer);
+}
+@media screen and (max-width: 800px) {
+  .evaluateToYour {
+    font-size: var(--font-size-8xl);
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .evaluateToYour {
+    font-size: var(--font-size-xl);
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,47 @@
+.image250Icon {
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+.nav {
+  width: 96px;
+  height: 96px;
+  position: relative;
+  border-radius: var(--br-55xl);
+  background-color: var(--color-whitesmoke-200);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.engine,
+.unreal {
+  margin: 0;
+}
+.unrealEngine {
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  font-weight: 600;
+}
+.navParent,
+.unrealEngineWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.unrealEngineWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xs) 0 var(--padding-6xs);
+}
+.navParent {
+  width: 96px;
+  flex-direction: column;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+  font-family: var(--font-switzer);
+}
