@@ -10,23 +10,26 @@ const FrameComponent1: FunctionComponent<FrameComponent1Type> = ({
 }) => {
   return (
     <div className={[styles.frameParent, className].join(" ")}>
-      <div className={styles.rectangleParent}>
-        <div className={styles.frameChild} />
-        <div className={styles.journeyButton}>
-          <h3 className={styles.general}>General</h3>
+      <div className={styles.frameGroup}>
+        <div className={styles.rectangleParent}>
+          <div className={styles.frameChild} />
+          <div className={styles.generalWrapper}>
+            <h3 className={styles.general}>General</h3>
+          </div>
+          <img className={styles.frameItem} alt="" src="/vector-415.svg" />
         </div>
-        <img
-          className={styles.frameItem}
-          loading="lazy"
-          alt=""
-          src="/vector-415.svg"
-        />
+        <div className={styles.frameContainer}>
+          <div className={styles.joiningProcessWrapper}>
+            <h3 className={styles.joiningProcess}>Joining Process</h3>
+          </div>
+          <img className={styles.frameInner} alt="" src="/vector-415.svg" />
+        </div>
+        <div className={styles.iWantToWorkPartTimeIsTWrapper}>
+          <h3 className={styles.iWantTo}>
+            I want to work part-time, is that possible
+          </h3>
+        </div>
       </div>
-      <h3 className={styles.iWantTo}>
-        I want to work part-time, is that possible
-      </h3>
-      <h3 className={styles.joiningProcess}>Joining Process</h3>
-      <img className={styles.frameInner} alt="" src="/vector-415.svg" />
       <img
         className={styles.vectorIcon}
         loading="lazy"

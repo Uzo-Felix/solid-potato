@@ -16,21 +16,21 @@ const StepContainer: FunctionComponent<StepContainerType> = ({
   resumeScreening,
   propWidth,
 }) => {
-  const stepLabelsStyle: CSSProperties = useMemo(() => {
+  const frameDivStyle: CSSProperties = useMemo(() => {
     return {
       width: propWidth,
     };
   }, [propWidth]);
 
   return (
-    <div className={[styles.stepContainer, className].join(" ")}>
+    <div className={[styles.frameParent, className].join(" ")}>
       <img
-        className={styles.placeholderContainerIcon}
+        className={styles.frameChild}
         loading="lazy"
         alt=""
         src="/frame-626623-1.svg"
       />
-      <div className={styles.stepLabels} style={stepLabelsStyle}>
+      <div className={styles.step1ResumeScreeningWrapper} style={frameDivStyle}>
         <div className={styles.step1ResumeContainer}>
           <span className={styles.step1}>{step1}</span>
           <span>{resumeScreening}</span>

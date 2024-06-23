@@ -131,7 +131,7 @@ const Root: FunctionComponent<RootType> = ({ className = "" }) => {
                 <img
                   className={styles.image236Icon}
                   alt=""
-                  src="/image-236@2x.png"
+                  src="/image-2361@2x.png"
                 />
               </div>
               <div className={styles.developerContent}>

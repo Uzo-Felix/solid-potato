@@ -92,13 +92,13 @@ const Root1: FunctionComponent<Root1Type> = ({ className = "" }) => {
                       <img
                         className={styles.pexelsItaloMelo2379004RemoIcon}
                         alt=""
-                        src="/pexelsitalomelo2379004removebgpreview-2@2x.png"
+                        src="/pexelsitalomelo2379004removebgpreview-21@2x.png"
                       />
                       <img
                         className={styles.pexelsItaloMelo2379004RemoIcon1}
                         loading="lazy"
                         alt=""
-                        src="/pexelsitalomelo2379004removebgpreview-1@2x.png"
+                        src="/pexelsitalomelo2379004removebgpreview-11@2x.png"
                       />
                     </div>
                     <div className={styles.container13}>

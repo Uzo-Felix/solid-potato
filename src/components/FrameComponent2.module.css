@@ -1,25 +1,3 @@
-.howLongAre {
-  margin: 0;
-  width: 350px;
-  position: relative;
-  font-size: inherit;
-  line-height: 24px;
-  font-weight: 400;
-  font-family: inherit;
-  display: inline-block;
-  max-width: 100%;
-  z-index: 8;
-}
-.projectDurationList {
-  align-self: stretch;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  padding: 0 var(--padding-xl) 0 var(--padding-190xl);
-  box-sizing: border-box;
-  max-width: 100%;
-}
 .frameChild {
   align-self: stretch;
   height: 112px;
@@ -27,17 +5,17 @@
   background-color: var(--color-gainsboro-100);
   display: none;
 }
-.shortFAQ {
+.frameItem {
   align-self: stretch;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
+.frameItem,
 .howDoesThe,
-.shortFAQ,
 .vectorIcon {
   position: relative;
-  z-index: 9;
+  z-index: 2;
 }
 .howDoesThe {
   margin: 0;
@@ -52,15 +30,15 @@
   width: 26.1px;
   height: 15.6px;
 }
-.projectDurationList2 {
+.vectorWrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-9xs) 0 0;
 }
-.howDoesThePaymentWorksParent,
-.projectDurationList1 {
+.frameContainer,
+.howDoesThePaymentWorksParent {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -71,100 +49,63 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
-.projectDurationList1 {
+.frameContainer {
   width: 891px;
   justify-content: center;
   padding: 0 var(--padding-xl);
   box-sizing: border-box;
 }
-.projectDurationListChild {
-  flex: 1;
+.frameInner {
+  width: 1440px;
   position: relative;
-  max-width: 100%;
-  overflow: hidden;
   max-height: 100%;
-  z-index: 9;
+  max-width: 180%;
+  flex-shrink: 0;
+  z-index: 2;
 }
-.projectDurationList3,
-.rectangleParent {
-  align-self: stretch;
+.vectorContainer {
+  width: 802px;
   display: flex;
-  max-width: 100%;
-}
-.projectDurationList3 {
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-end;
-  padding: 0 var(--padding-12xs) 0 0;
+  padding: 0 var(--padding-12xs);
   box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
 }
 .rectangleParent {
+  width: 1431px;
   background-color: var(--color-gainsboro-100);
   flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-start;
   gap: var(--gap-24xl-5);
-  z-index: 8;
-  color: var(--color-gray-300);
+  z-index: 1;
 }
-.howMuchCan {
-  margin: 0;
-  width: 220px;
-  position: relative;
-  font-size: inherit;
-  line-height: 24px;
-  font-weight: 400;
-  font-family: inherit;
-  display: inline-block;
-  z-index: 8;
-}
-.projectDurationList4,
-.projectDurationListParent {
+.frameWrapper {
   align-self: stretch;
-  display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
-  padding: 0 var(--padding-xl) 0 var(--padding-60xl);
-}
-.projectDurationListParent {
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 0 0 var(--padding-25xl);
+  padding: 0 0 0 var(--padding-3xs);
   box-sizing: border-box;
-  gap: var(--gap-24xl-5);
-  max-width: 100%;
   text-align: left;
   font-size: var(--font-size-3xl);
-  color: var(--color-gray-900);
+  color: var(--color-gray-300);
   font-family: var(--font-switzer);
 }
 @media screen and (max-width: 800px) {
-  .projectDurationList {
-    padding-left: var(--padding-85xl);
-    box-sizing: border-box;
-  }
-  .projectDurationListParent,
   .rectangleParent {
     gap: var(--gap-3xl);
   }
 }
 @media screen and (max-width: 450px) {
-  .howLongAre {
+  .howDoesThe {
     font-size: var(--font-size-lg);
     line-height: 19px;
-  }
-  .projectDurationList {
-    padding-left: var(--padding-xl);
-    box-sizing: border-box;
-  }
-  .howDoesThe,
-  .howMuchCan {
-    font-size: var(--font-size-lg);
-    line-height: 19px;
-  }
-  .projectDurationList4 {
-    padding-left: var(--padding-xl);
-    box-sizing: border-box;
   }
 }

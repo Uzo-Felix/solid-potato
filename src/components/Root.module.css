@@ -1,35 +1,39 @@
 .onboardWithoutThe {
   margin: 0;
   width: 464px;
+  height: 128px;
   position: relative;
   font-size: inherit;
   line-height: 64px;
   font-weight: 700;
   font-family: inherit;
   display: inline-block;
-  max-width: 100%;
 }
-.valuePropositionChild,
-.valuePropositionInner,
-.valuePropositionItem {
+.frameChild,
+.frameInner,
+.frameItem {
   width: 18px;
   height: 7px;
   position: relative;
   border-radius: var(--br-2xl);
   background-color: var(--color-darkslateblue-200);
 }
-.selectionContent,
-.valueProposition {
+.frameWrapper,
+.rectangleParent {
+  width: 18px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.valueProposition {
+.rectangleParent {
+  height: 71px;
   gap: var(--gap-6xl);
 }
-.selectionContent {
+.frameWrapper {
+  height: 84px;
   padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
 }
 .riskFreeResourceSwapping,
 .thousandsOfVetted,
@@ -38,32 +42,32 @@
 }
 .wePickTheContainer {
   margin: 0;
-  flex: 1;
+  height: 96px;
+  width: 591px;
   position: relative;
   font-size: inherit;
   line-height: 32px;
   font-weight: 400;
   font-family: inherit;
   display: inline-block;
-  min-width: 384px;
-  max-width: 100%;
+  flex-shrink: 0;
 }
-.onboardingContent,
-.onboardingStep2 {
-  align-self: stretch;
+.frameDiv,
+.onboardWithoutTheRiskParent {
+  width: 625px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  max-width: 100%;
 }
-.onboardingContent {
+.frameDiv {
+  height: 96px;
   flex-direction: row;
-  flex-wrap: wrap;
   gap: var(--gap-base);
   font-size: var(--font-size-3xl);
   color: var(--color-gray-900);
 }
-.onboardingStep2 {
+.onboardWithoutTheRiskParent {
+  height: 261px;
   flex-direction: column;
   gap: var(--gap-18xl);
 }
@@ -77,153 +81,182 @@
 }
 .learnMore {
   margin: 0;
+  width: 116px;
+  height: 18px;
   position: relative;
   font-size: inherit;
   line-height: 18px;
   font-weight: 500;
   font-family: inherit;
   display: inline-block;
-  min-width: 116px;
-  white-space: nowrap;
 }
 .component1064,
-.learnMoreButton {
+.learnMoreWrapper {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.learnMoreButton {
+.learnMoreWrapper {
+  height: 45px;
+  width: 116px;
   flex-direction: column;
   padding: var(--padding-8xl) 0 0;
+  box-sizing: border-box;
 }
 .component1064 {
+  width: 202px;
+  height: 74px;
   flex-direction: row;
   gap: var(--gap-xs);
   font-size: var(--font-size-3xl);
 }
 .uiuxDesigner {
   margin: 0;
+  height: 20px;
+  width: 111px;
   position: relative;
   font-size: inherit;
   line-height: 20px;
   font-weight: 400;
   font-family: inherit;
   display: inline-block;
-  min-width: 111px;
 }
 .span {
   font-weight: 600;
   white-space: pre-wrap;
 }
 .div {
+  width: 56px;
+  height: 9px;
   position: relative;
   line-height: 8.54px;
   display: inline-block;
-  min-width: 56px;
-  flex-shrink: 0;
 }
-.experienceYears {
+.wrapper {
+  height: 11.4px;
+  width: 56px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-10xs-4) 0 0;
+  box-sizing: border-box;
 }
-.experienceIcon {
+.vectorIcon {
   height: 13px;
   width: 14.1px;
   position: relative;
-  min-height: 13px;
   z-index: 1;
   margin-left: -31.2px;
 }
-.experienceDetails {
+.frameParent3 {
+  width: 56px;
+  height: 13px;
   flex-direction: row;
-  padding: 0 var(--padding-mid) 0 0;
 }
-.experienceDetails,
-.experienceDetailsWrapper,
-.profileDetails {
+.frameParent3,
+.frameWrapper1,
+.uiuxDesignerParent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.experienceDetailsWrapper {
+.frameWrapper1 {
+  height: 18px;
+  width: 56px;
   flex-direction: column;
   padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
   font-size: var(--font-size-mini-1);
   color: var(--color-white);
 }
-.profileDetails {
+.uiuxDesignerParent {
+  width: 173px;
+  height: 20px;
   flex-direction: row;
   gap: var(--gap-7xs);
 }
 .dModeling {
+  height: 13px;
+  width: 58px;
   position: relative;
-  line-height: 13px;
+  line-height: 12.6px;
   display: inline-block;
-  min-width: 58px;
 }
 .component1026 {
+  height: 22px;
+  width: 70px;
   border-radius: 29.56px;
   background-color: var(--color-gainsboro-300);
   overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-8xs-5) var(--padding-7xs);
-  white-space: nowrap;
+  box-sizing: border-box;
 }
 .characterRigging {
+  height: 13px;
+  width: 86px;
   position: relative;
-  line-height: 13px;
+  line-height: 12.6px;
   display: inline-block;
-  min-width: 86px;
 }
 .component922 {
+  height: 22px;
+  width: 95px;
   border-radius: 29.56px;
   background-color: var(--color-gainsboro-300);
   overflow: hidden;
+  flex-shrink: 0;
   flex-direction: row;
-  padding: var(--padding-8xs-5) var(--padding-9xs);
-  white-space: nowrap;
+  padding: var(--padding-8xs-5);
+  box-sizing: border-box;
 }
+.component1026Parent,
 .component922,
-.profileContent,
-.skillset {
+.frameParent2 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.skillset {
+.component1026Parent {
+  width: 170px;
+  height: 22px;
   flex-direction: row;
   gap: var(--gap-8xs);
   font-size: var(--font-size-3xs);
 }
-.profileContent {
+.frameParent2 {
+  width: 173px;
+  height: 48px;
   flex-direction: column;
   gap: var(--gap-7xs);
 }
 .iAmWorking {
   margin: 0;
-  align-self: stretch;
+  width: 310px;
+  height: 40px;
   position: relative;
   font-size: inherit;
   line-height: 20px;
   font-weight: 400;
   font-family: inherit;
+  display: inline-block;
 }
-.designerProfile,
-.onboardingStep1 {
+.frameContainer,
+.frameParent1 {
   position: absolute;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.designerProfile {
+.frameParent1 {
   width: 347px;
+  height: 174px;
   margin: 0 !important;
   right: -266px;
   bottom: -99px;
@@ -231,6 +264,7 @@
   border-radius: var(--br-xl);
   background-color: var(--color-white);
   overflow: hidden;
+  flex-shrink: 0;
   padding: var(--padding-5xl) var(--padding-lg) var(--padding-9xl)
     var(--padding-lgi);
   box-sizing: border-box;
@@ -238,23 +272,19 @@
   font-size: var(--font-size-base);
   color: var(--color-gray-400);
 }
-.onboardingStep1 {
+.frameContainer {
   top: 91px;
   left: 0;
   width: 625px;
+  height: 379px;
   gap: var(--gap-25xl);
-  max-width: 100%;
 }
 .image221Icon,
 .image235Icon {
-  max-width: 100%;
-  overflow: hidden;
-  object-fit: cover;
-}
-.image235Icon {
   height: 157.5px;
-  flex: 1;
+  width: 288.7px;
   position: relative;
+  object-fit: cover;
 }
 .image221Icon {
   width: 100%;
@@ -265,15 +295,17 @@
   right: 0;
   bottom: 0;
   left: 0;
+  max-width: 100%;
+  overflow: hidden;
   max-height: 100%;
   z-index: 1;
 }
-.frameChild {
-  height: 26.7px;
+.rectangleDiv {
   width: 90.4px;
   position: relative;
   border-radius: 13.84px 0 0 13.84px;
   background-color: var(--color-darkslateblue-200);
+  height: 26.7px;
   display: none;
 }
 .groupIcon,
@@ -283,76 +315,83 @@
 }
 .nextChapter {
   text-decoration: none;
-  line-height: 14px;
+  height: 14px;
+  width: 61px;
+  line-height: 13.08px;
   font-weight: 700;
   color: inherit;
   display: inline-block;
-  min-width: 61px;
 }
 .groupIcon {
   width: 8.7px;
   height: 6.6px;
 }
 .groupWrapper,
-.rectangleParent {
+.rectangleGroup {
+  height: 10.1px;
+  width: 8.7px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-9xs-5) 0 0;
+  box-sizing: border-box;
 }
-.rectangleParent {
+.rectangleGroup {
+  width: 90.4px;
+  height: 26.7px;
   border-radius: 13.84px 0 0 13.84px;
   background-color: var(--color-darkslateblue-200);
   flex-direction: row;
-  padding: var(--padding-6xs-7) var(--padding-7xs) var(--padding-7xs)
-    var(--padding-4xs);
+  padding: var(--padding-6xs-7) 6.8px var(--padding-7xs) 9.4px;
   gap: var(--gap-8xs-5);
   z-index: 2;
 }
 .div1,
 .tellUsSomething {
+  height: 17px;
+  width: 171px;
   position: relative;
+  line-height: 16.04px;
   font-weight: 500;
   display: inline-block;
   z-index: 2;
 }
-.tellUsSomething {
-  width: 171px;
-  line-height: 17px;
-}
 .div1 {
-  line-height: 9px;
-  min-width: 31px;
-  white-space: nowrap;
+  width: 31px;
+  height: 9px;
+  line-height: 8.75px;
 }
-.formFields,
-.formInput {
+.container,
+.tellUsSomethingAboutYourseParent {
   display: flex;
   align-items: flex-start;
-}
-.formInput {
-  flex-direction: column;
   justify-content: flex-start;
+}
+.container {
+  height: 12.6px;
+  width: 31px;
+  flex-direction: column;
   padding: var(--padding-9xs-6) 0 0;
+  box-sizing: border-box;
   text-align: right;
   font-family: var(--font-cabin);
 }
-.formFields {
-  align-self: stretch;
+.tellUsSomethingAboutYourseParent {
+  width: 264.2px;
+  height: 17px;
   flex-direction: row;
-  justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 62.2px;
 }
-.frameItem,
-.submitButton {
+.frameChild1,
+.frameChild2 {
   position: absolute;
   height: 100%;
   top: 0;
   bottom: 0;
   left: 0;
 }
-.frameItem {
+.frameChild1 {
   width: 100%;
   right: 0;
   backdrop-filter: blur(2.92px);
@@ -363,14 +402,14 @@
   );
   display: none;
 }
-.submitButton {
+.frameChild2 {
   width: 35.54%;
   right: 64.46%;
   background-color: var(--color-white);
   z-index: 1;
 }
-.rectangleGroup {
-  align-self: stretch;
+.rectangleContainer {
+  width: 263.9px;
   height: 4.4px;
   position: relative;
   backdrop-filter: blur(2.92px);
@@ -381,43 +420,47 @@
   );
   z-index: 2;
 }
-.formContainer,
-.projectForm {
+.frameParent4,
+.frameWrapper2 {
+  height: 27.7px;
   display: flex;
   align-items: flex-start;
 }
-.formContainer {
-  flex: 1;
+.frameParent4 {
+  width: 264.2px;
   flex-direction: column;
   justify-content: flex-start;
-  gap: var(--gap-6xs-3);
+  gap: 6.3px;
 }
-.projectForm {
-  align-self: stretch;
+.frameWrapper2 {
+  width: 271.9px;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 var(--padding-6xs);
+  padding: 0 7.7px 0 0;
+  box-sizing: border-box;
   font-size: var(--font-size-xs-7);
 }
-.projectInfo,
-.projectSlide {
+.image221Parent,
+.image235Parent {
   margin: 0 !important;
   position: absolute;
   display: flex;
   justify-content: flex-start;
 }
-.projectInfo {
+.image221Parent {
+  height: 164.7px;
   width: 282.8px;
   bottom: -7.2px;
   left: 2.9px;
   flex-direction: column;
   align-items: flex-end;
-  padding: var(--padding-base-3) var(--padding-11xs) var(--padding-base);
+  padding: 15.3px var(--padding-10xs-1) var(--padding-base);
   box-sizing: border-box;
   gap: var(--gap-60xl);
 }
-.projectSlide {
+.image235Parent {
   width: 288.7px;
+  height: 157.5px;
   top: 0;
   left: -5.1px;
   flex-direction: row;
@@ -448,7 +491,7 @@
   justify-content: center;
 }
 .mernStackDeveloper {
-  align-self: stretch;
+  height: 27px;
   width: 230.3px;
   position: relative;
   line-height: 13.12px;
@@ -456,9 +499,9 @@
   flex-shrink: 0;
   z-index: 3;
 }
-.skillIcons,
-.skillIcons1,
-.skillIcons2 {
+.frameChild3,
+.frameChild4,
+.frameChild5 {
   position: absolute;
   top: 0;
   left: 0;
@@ -468,64 +511,69 @@
   height: 2.6px;
   z-index: 3;
 }
-.skillIcons1,
-.skillIcons2 {
+.frameChild4,
+.frameChild5 {
   top: 5.2px;
 }
-.skillIcons2 {
+.frameChild5 {
   top: 10.4px;
 }
-.skillIconsParent {
+.rectangleParent1 {
   height: 13px;
   width: 2.6px;
   position: relative;
 }
-.developerDetails {
-  align-self: stretch;
-  flex: 1;
+.mernStackDeveloperWith7YParent {
+  width: 263.5px;
+  height: 27px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: var(--gap-11xl-6);
+  gap: 30.6px;
 }
 .div2 {
-  align-self: stretch;
+  width: 6px;
   height: 14px;
   position: relative;
   line-height: 13.12px;
   display: inline-block;
   z-index: 3;
 }
-.messageContent {
+.frame {
+  height: 15.4px;
   width: 6px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-11xs-4) 0 0;
+  padding: 1.4px 0 0;
   box-sizing: border-box;
 }
-.invitationMessageChild {
+.frameChild6 {
   height: 17.5px;
   width: 17.5px;
   position: relative;
-  min-height: 18px;
   z-index: 3;
 }
-.invitationMessage {
+.frameParent7,
+.frameWrapper3 {
+  width: 26.9px;
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-9xs-4);
 }
-.invitationDetails {
-  display: flex;
+.frameParent7 {
+  height: 17.5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 3.4px;
+}
+.frameWrapper3 {
+  height: 20.3px;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-end;
   padding: 0 0 var(--padding-10xs-8);
+  box-sizing: border-box;
 }
 .pathIcon {
   width: 13.1px;
@@ -533,75 +581,81 @@
   position: relative;
   z-index: 3;
 }
-.invitationButton {
+.pathWrapper {
+  height: 17.4px;
+  width: 13.1px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
   padding: 0 0 var(--padding-7xs-7);
+  box-sizing: border-box;
 }
 .inviteToTeam {
   text-decoration: none;
-  align-self: stretch;
-  flex: 1;
+  height: 19px;
+  width: 62px;
   position: relative;
   line-height: 18.79px;
   font-weight: 500;
   color: inherit;
+  display: inline-block;
   z-index: 1;
 }
-.labelContent,
-.labelContentWrapper {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.labelContent {
-  height: 23.3px;
+.inviteToTeamWrapper {
+  width: 72.9px;
   border-radius: 7.29px;
   background-color: var(--color-darkslateblue-200);
   overflow: hidden;
-  padding: var(--padding-10xs-2) var(--padding-8xs) var(--padding-10xs-1);
+  flex-shrink: 0;
+  align-items: flex-start;
+  padding: var(--padding-10xs-2) var(--padding-8xs) var(--padding-10xs-1) 5.9px;
   box-sizing: border-box;
-  white-space: nowrap;
 }
-.labelContentWrapper {
-  z-index: 3;
-}
-.invitationAction,
-.invitationDetailsParent {
+.frameParent8,
+.groupDiv,
+.inviteToTeamWrapper {
+  height: 23.3px;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-}
-.invitationAction {
-  width: 93.3px;
   justify-content: flex-start;
-  gap: var(--gap-5xs-3);
+}
+.groupDiv {
+  width: 72.9px;
+  align-items: flex-start;
+  z-index: 3;
+}
+.frameParent8 {
+  width: 93.3px;
+  align-items: flex-end;
+  gap: 7.3px;
   font-size: var(--font-size-2xs-2);
 }
-.invitationDetailsParent {
-  align-self: stretch;
-  justify-content: space-between;
-  gap: var(--gap-xl);
+.frameParent5,
+.frameParent6 {
+  width: 263.8px;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent6 {
+  height: 23.3px;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 143.6px;
   font-size: var(--font-size-mid-5);
 }
-.developerContent {
-  align-self: stretch;
-  flex: 1;
-  display: flex;
+.frameParent5 {
+  height: 61.2px;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
   gap: var(--gap-2xs-9);
 }
 .dModeling1 {
-  align-self: stretch;
-  flex: 1;
+  height: 10px;
+  width: 40px;
   position: relative;
   line-height: 9.18px;
+  display: inline-block;
 }
 .component10261 {
   height: 16px;
@@ -614,99 +668,103 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-10xs) var(--padding-8xs);
+  padding: var(--padding-10xs) 5.5px;
   box-sizing: border-box;
-  white-space: nowrap;
   z-index: 3;
 }
 .characterRigging1 {
-  align-self: stretch;
-  flex: 1;
+  height: 10px;
+  width: 55px;
   position: relative;
   line-height: 9.18px;
+  display: inline-block;
 }
 .component9221 {
   height: 16px;
-  flex: 1;
+  width: 69.2px;
   border-radius: 21.55px;
   background-color: var(--color-darkslategray);
   overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-10xs) var(--padding-6xs);
+  padding: var(--padding-10xs) var(--padding-6xs) var(--padding-10xs)
+    var(--padding-5xs-2);
   box-sizing: border-box;
-  white-space: nowrap;
   z-index: 3;
 }
 .environmentDesign {
-  align-self: stretch;
-  flex: 1;
+  height: 10px;
+  width: 64px;
   position: relative;
   line-height: 9.18px;
+  display: inline-block;
 }
-.component920,
-.skillOptions {
-  flex: 1;
+.component1026Group,
+.component920 {
+  height: 16px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .component920 {
-  height: 16px;
+  width: 74.4px;
   border-radius: 21.55px;
   background-color: var(--color-darkslategray);
   overflow: hidden;
-  padding: var(--padding-10xs) var(--padding-8xs);
+  flex-shrink: 0;
+  padding: var(--padding-10xs) 5.2px;
   box-sizing: border-box;
-  white-space: nowrap;
   z-index: 3;
 }
-.skillOptions {
-  gap: var(--gap-8xs-8);
+.component1026Group {
+  width: 204.2px;
+  gap: 4.8px;
 }
-.skillFilter {
-  width: 213px;
+.frameWrapper4 {
+  width: 209px;
+  height: 16px;
   flex-direction: row;
-  padding: 0 var(--padding-9xs);
+  padding: 0 0 0 4.8px;
   box-sizing: border-box;
   font-size: var(--font-size-5xs-3);
 }
 .component1080,
 .component1080Wrapper,
-.developerProfile,
-.skillFilter {
+.frameWrapper4,
+.wrapperImage236Parent {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.developerProfile {
-  align-self: stretch;
+.wrapperImage236Parent {
+  width: 278.5px;
   height: 114.4px;
   flex-direction: column;
-  padding: var(--padding-5xs-2) var(--padding-7xs) var(--padding-2xs-9);
+  padding: var(--padding-5xs-2) 6.6px 10.9px;
   box-sizing: border-box;
   position: relative;
-  gap: var(--gap-lgi-1);
+  gap: 19.1px;
   font-size: var(--font-size-xs-7);
   font-family: var(--font-cabin);
 }
 .component1080,
 .component1080Wrapper {
+  height: 157.5px;
   overflow: hidden;
 }
 .component1080 {
-  height: 157.5px;
-  flex: 1;
+  width: 278.5px;
   border-radius: 2.19px;
   background-color: var(--color-gray-200);
+  flex-shrink: 0;
   flex-direction: column;
   padding: var(--padding-138xl-5) 0 0;
   box-sizing: border-box;
   position: relative;
-  flex-shrink: 0;
 }
 .component1080Wrapper {
   position: absolute;
@@ -720,17 +778,16 @@
   font-size: var(--font-size-3xs-8);
   color: var(--color-white);
 }
-.onboardingStep {
+.frameGroup {
   height: 470px;
   width: 879px;
   position: relative;
-  max-width: 100%;
   text-align: left;
   font-size: var(--font-size-35xl);
   color: var(--color-gray-300);
   font-family: var(--font-switzer);
 }
-.profileCardChild {
+.frameChild7 {
   height: 60px;
   width: 60px;
   position: absolute;
@@ -740,17 +797,19 @@
   z-index: 1;
 }
 .iAmWorking1 {
-  align-self: stretch;
+  width: 243px;
+  height: 34px;
   position: relative;
   line-height: 16.57px;
+  display: inline-block;
 }
 .image221Icon1,
 .image235Icon1 {
   position: absolute;
   top: -2.7px;
   left: -1.2px;
-  width: 100%;
-  height: 100%;
+  width: 35px;
+  height: 35px;
   object-fit: cover;
 }
 .image221Icon1 {
@@ -761,7 +820,7 @@
   height: 39.8px;
   z-index: 1;
 }
-.imageContainer {
+.image235Group {
   height: 32.3px;
   width: 32.3px;
   position: relative;
@@ -771,61 +830,68 @@
   flex-shrink: 0;
 }
 .availibility {
-  text-decoration: none;
+  width: 45px;
+  height: 17px;
   position: relative;
-  line-height: 17px;
-  color: inherit;
+  line-height: 16.57px;
   display: inline-block;
-  min-width: 45px;
 }
-.availabilityLabel {
+.availibilityWrapper {
+  height: 22px;
+  width: 45px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
 }
 .hours {
+  height: 22px;
+  width: 41px;
   position: relative;
-  line-height: 22px;
+  line-height: 21.35px;
   font-weight: 500;
   display: inline-block;
-  min-width: 41px;
 }
-.workHours {
-  flex: 1;
+.hoursWrapper {
+  height: 26.5px;
+  width: 63px;
   border-radius: 8.28px;
   border: 0.8px solid var(--color-mediumslateblue);
+  box-sizing: border-box;
   overflow: hidden;
+  flex-shrink: 0;
   align-items: flex-start;
-  justify-content: flex-start;
-  padding: var(--padding-12xs) var(--padding-3xs);
+  padding: var(--padding-10xs-5) 10.8px var(--padding-11xs);
   font-size: var(--font-size-xs-6);
   color: var(--color-gray-400);
 }
-.availability,
-.imageGallery,
-.workHours {
+.frameParent10,
+.frameParent11,
+.hoursWrapper {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
-.availability {
+.frameParent11 {
+  height: 26.5px;
   width: 115.1px;
   align-items: flex-start;
-  justify-content: flex-start;
   gap: var(--gap-5xs-1);
   flex-shrink: 0;
 }
-.imageGallery {
-  align-self: stretch;
+.frameParent10 {
+  width: 242.7px;
+  height: 32.3px;
   align-items: flex-end;
-  justify-content: space-between;
-  gap: var(--gap-xl);
+  gap: 95.3px;
   font-size: var(--font-size-3xs-9);
   color: var(--color-gray-700);
 }
-.cardDetails {
-  width: 100%;
+.iAmWorkingInDesignIndustrParent {
+  height: 113.5px;
+  width: 280.8px;
   margin: 0 !important;
   position: absolute;
   right: -199px;
@@ -860,7 +926,7 @@
   height: 154.1px;
   z-index: 1;
 }
-.image235Parent {
+.image235Container {
   height: 164.4px;
   width: 260.1px;
   position: absolute;
@@ -868,15 +934,15 @@
   right: -72.1px;
   bottom: -32.3px;
 }
-.cardImage,
-.cardImageInner {
+.frameWrapper6,
+.frameWrapper7 {
+  height: 121.8px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.cardImageInner {
-  height: 121.8px;
+.frameWrapper7 {
   width: 121.8px;
   border-radius: 68.63px;
   background-color: var(--color-gray-100);
@@ -884,208 +950,236 @@
   flex-shrink: 0;
   position: relative;
 }
-.cardImage {
-  align-self: stretch;
-  padding: 0 var(--padding-lgi) 0 var(--padding-sm);
+.frameWrapper6 {
+  width: 135.8px;
+  padding: 0 0 0 var(--padding-sm);
+  box-sizing: border-box;
 }
 .arianaMarie {
   margin: 0;
+  width: 155px;
+  height: 13px;
   position: relative;
   font-size: inherit;
-  line-height: 13px;
+  line-height: 12.97px;
   font-weight: 600;
   font-family: inherit;
   background: linear-gradient(90.32deg, #50589f, #ffbe2e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  display: inline-block;
+  flex-shrink: 0;
 }
-.cardContainer,
-.cardContent {
+.frameParent13,
+.frameWrapper5 {
+  height: 151.4px;
   display: flex;
   align-items: flex-start;
 }
-.cardContent {
-  flex: 1;
+.frameParent13 {
+  width: 155px;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-base-6);
 }
-.cardContainer {
-  align-self: stretch;
+.frameWrapper5 {
+  width: 192.1px;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 0 var(--padding-18xl) 0 var(--padding-20xl);
+  padding: 0 37.1px 0 0;
+  box-sizing: border-box;
 }
 .dModeling2 {
+  height: 11px;
+  width: 45px;
   position: relative;
-  line-height: 11px;
+  line-height: 10.43px;
   display: inline-block;
-  min-width: 45px;
 }
 .component10262 {
+  width: 58px;
+  height: 18.2px;
   border-radius: 24.48px;
   background-color: var(--color-gainsboro-300);
   overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-9xs-7) var(--padding-7xs) var(--padding-9xs-5);
-  flex-shrink: 0;
-  white-space: nowrap;
+  padding: var(--padding-9xs-7) 6.5px var(--padding-9xs-5);
+  box-sizing: border-box;
 }
 .span1 {
   font-weight: 600;
   white-space: pre-wrap;
 }
 .div3 {
+  width: 62px;
+  height: 9px;
   position: relative;
-  line-height: 9px;
+  line-height: 8.46px;
   display: inline-block;
-  min-width: 62px;
-  flex-shrink: 0;
 }
-.iconPlaceholder {
+.wrapper1 {
+  height: 11.4px;
+  width: 62px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-10xs-4) 0 0;
+  box-sizing: border-box;
 }
-.vectorIcon {
+.vectorIcon1 {
   height: 12.9px;
   width: 14px;
   position: relative;
-  min-height: 13px;
   z-index: 1;
   margin-left: -37.5px;
 }
-.highlightContent,
-.iconPlaceholderParent {
+.component1026Container,
+.frameParent15 {
+  width: 62px;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.iconPlaceholderParent {
+.frameParent15 {
+  height: 12.9px;
   flex-direction: row;
-  padding: 0 var(--padding-4xl) 0 0;
-  flex-shrink: 0;
   font-size: var(--font-size-sm);
   color: var(--color-white);
 }
-.highlightContent {
+.component1026Container {
+  height: 56.8px;
   flex-direction: column;
   gap: 25.7px;
 }
 .characterRigging2 {
+  height: 11px;
+  width: 63px;
   position: relative;
-  line-height: 11px;
+  line-height: 10.43px;
   display: inline-block;
-  min-width: 63px;
 }
 .component9222 {
-  flex: 1;
+  height: 18.2px;
+  width: 78.7px;
   border-radius: 24.48px;
   background-color: var(--color-gainsboro-300);
   overflow: hidden;
+  flex-shrink: 0;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-9xs-7) var(--padding-6xs) var(--padding-9xs-5);
-  white-space: nowrap;
+  padding: var(--padding-9xs-7) 7.8px var(--padding-9xs-5);
+  box-sizing: border-box;
 }
 .environmentDesign1 {
+  height: 11px;
+  width: 73px;
   position: relative;
-  line-height: 11px;
+  line-height: 10.43px;
   display: inline-block;
-  min-width: 73px;
 }
 .component9201,
-.skillSelection {
+.component922Parent {
+  height: 18.2px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
 .component9201 {
+  width: 84.5px;
   border-radius: 24.48px;
   background-color: var(--color-gainsboro-300);
   overflow: hidden;
-  padding: var(--padding-9xs-7) var(--padding-8xs) var(--padding-9xs-5);
-  white-space: nowrap;
-}
-.skillSelection {
-  align-self: stretch;
-  gap: var(--gap-8xs-1);
   flex-shrink: 0;
+  padding: var(--padding-9xs-7) var(--padding-7xs-7) var(--padding-9xs-5) 5.8px;
+  box-sizing: border-box;
+}
+.component922Parent {
+  width: 167.3px;
+  gap: var(--gap-8xs-1);
 }
 .takeInterview {
+  height: 22px;
+  width: 71px;
   position: relative;
-  line-height: 22px;
+  line-height: 21.35px;
   font-weight: 500;
   display: inline-block;
-  min-width: 71px;
   z-index: 1;
 }
-.interviewAction,
-.interviewActionWrapper {
+.frameWrapper8,
+.takeInterviewWrapper {
+  width: 109.3px;
+  height: 30.6px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.interviewAction {
+.takeInterviewWrapper {
   border-radius: 8.28px;
   background-color: var(--color-gray-400);
   overflow: hidden;
-  padding: var(--padding-8xs) var(--padding-lgi) var(--padding-9xs-6);
-  white-space: nowrap;
-}
-.interviewActionWrapper {
   flex-shrink: 0;
+  padding: var(--padding-8xs) var(--padding-lgi) var(--padding-9xs-6);
+  box-sizing: border-box;
+}
+.frameWrapper8 {
   font-size: var(--font-size-xs-6);
   color: var(--color-white);
 }
-.additionalSkills {
-  flex: 1;
+.frameParent16 {
+  height: 65.4px;
+  width: 167.3px;
   flex-direction: column;
   align-items: flex-end;
   gap: var(--gap-base-6);
 }
-.additionalSkills,
-.designerCard,
-.skillHighlight {
+.frameParent12,
+.frameParent14,
+.frameParent16 {
   display: flex;
   justify-content: flex-start;
 }
-.skillHighlight {
-  align-self: stretch;
+.frameParent14 {
+  width: 229.4px;
+  height: 65.4px;
   flex-direction: row;
   align-items: flex-start;
   gap: 0.1px;
   font-size: var(--font-size-4xs-3);
   font-family: var(--font-cabin);
 }
-.designerCard {
-  flex: 1;
+.frameParent12 {
+  height: 304.8px;
+  width: 280.8px;
   box-shadow: 0 31px 19.88px rgba(0, 0, 0, 0.15);
   border-radius: 16.57px;
   background-color: var(--color-white);
   overflow: hidden;
+  flex-shrink: 0;
   flex-direction: column;
   align-items: flex-end;
-  padding: var(--padding-17xl-4) var(--padding-6xl) var(--padding-8xl-4);
+  padding: var(--padding-17xl-4) 25.7px var(--padding-8xl-4);
+  box-sizing: border-box;
   gap: 24.2px;
   z-index: 2;
   font-size: var(--font-size-7xl);
 }
-.profileCard,
-.ratingIcon {
+.frameParent9,
+.starIcon {
   position: absolute;
   margin: 0 !important;
 }
-.profileCard {
+.frameParent9 {
+  height: 304.8px;
   width: 280.8px;
   top: 133px;
   left: 781px;
@@ -1094,13 +1188,13 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.ratingIcon {
+.starIcon {
   height: 60px;
   width: 60px;
   top: 103px;
   right: 165px;
 }
-.root {
+.frameParent {
   width: 1300px;
   height: 652px;
   box-shadow: 0 15px 30px rgba(191, 181, 255, 0.15);
@@ -1115,56 +1209,8 @@
   padding: var(--padding-23xl) var(--padding-39xl) var(--padding-121xl);
   box-sizing: border-box;
   position: relative;
-  line-height: normal;
-  letter-spacing: normal;
   text-align: left;
   font-size: var(--font-size-sm-3);
   color: var(--color-gray-400);
   font-family: var(--font-switzer);
-}
-@media screen and (max-width: 1000px) {
-  .root {
-    padding-left: var(--padding-10xl);
-    padding-right: var(--padding-10xl);
-    box-sizing: border-box;
-  }
-}
-@media screen and (max-width: 975px) {
-  .onboardWithoutThe {
-    font-size: var(--font-size-24xl);
-    line-height: 51px;
-  }
-}
-@media screen and (max-width: 725px) {
-  .wePickTheContainer {
-    min-width: 100%;
-  }
-  .onboardingStep {
-    height: auto;
-    min-height: 470;
-  }
-  .root {
-    height: auto;
-  }
-}
-@media screen and (max-width: 450px) {
-  .onboardWithoutThe {
-    font-size: var(--font-size-13xl);
-    line-height: 38px;
-  }
-  .learnMore,
-  .wePickTheContainer {
-    font-size: var(--font-size-lg);
-    line-height: 26px;
-  }
-  .learnMore {
-    line-height: 14px;
-  }
-  .component1080 {
-    height: 157.5px;
-  }
-  .arianaMarie {
-    font-size: var(--font-size-2xl);
-    line-height: 10px;
-  }
 }
