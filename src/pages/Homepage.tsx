@@ -19,12 +19,12 @@ const Homepage: FunctionComponent = () => {
       <img className={styles.homepageChild} alt="" src="/rectangle-3206.svg" />
       <FrameComponent10 />
       <FrameComponent9 />
-      <img
+      {/* <img
         className={styles.homepageItem}
         loading="lazy"
         alt=""
         src="/vector-343.svg"
-      />
+      /> */}
       <section className={styles.yourOneStopMarketplaceForWrapper}>
         <h1 className={styles.yourOneStopMarketplace}>
           Your one-stop marketplace for finding the talent your business needs.
